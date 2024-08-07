@@ -1,0 +1,73 @@
+.border{
+    border: 2px solid red;
+    margin: 5px;
+}
+.flex{
+    display: flex;
+}
+.jutify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-gray{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m1{
+    margin: 5px;
+}
+.p1{
+    padding: 10px;
+}
+.m{
+    margin: 2px;
+}
+/* Hide bottom scrollbar */
+body {
+    overflow-x: hidden;
+}
+
+/* Style for dark right scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 0; /* Height 0 to hide bottom scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background color for track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Dark color for thumb */
+    border-radius: 10px;
+    border: 3px solid #1e1e1e; /* Padding around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter color on hover */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #1e1e1e;
+}
+
+/* Hide bottom scrollbar for Firefox */
+body {
+    overflow-x: hidden;
+}
+
+
+
